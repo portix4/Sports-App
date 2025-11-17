@@ -1,1 +1,4 @@
-//Configuration settings
+message: Hola
+
+server:
+  port: 8081

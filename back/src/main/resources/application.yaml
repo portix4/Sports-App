@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: back
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/portix4/Sports-App/blob/main/configuration.yml
+server:
+  port: 8080
